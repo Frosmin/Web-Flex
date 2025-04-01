@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.flex-container {
+  display: flex;
+  height: 600px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  overflow: scroll;  
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+
+<h1>The align-content Property</h1>
+
+<p>align-content: center; - The flex lines are packed toward the center of the container:</p>
+
+<div class="flex-container">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>  
+  <div>4</div>
+  <div>5</div>
+  <div>6</div>  
+  <div>7</div>
+  <div>8</div>
+  <div>9</div>  
+  <div>10</div>
+  <div>11</div>
+  <div>12</div>  
+</div>
+
+</body>
+</html>
+
+
+<!-- funciona  para las lineas  -->
+<!-- si es   flex-direction: column;  lo alinea de izquierda a derecha -->
+ <!-- solo funcioan si wrap esta activado -->
+
+<!-- center  de ariva a abajo
+stretch
+flex-start
+flex-end
+space-around
+space-between
+space-evenly -->
+
